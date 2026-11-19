@@ -1,0 +1,23 @@
+{
+  "events": [
+    {
+      "id": "s1_winter",
+      "title": "냥냥 겨울 시즌",
+      "titleEn": "Nyang Winter Season",
+      "titleJa": "にゃんにゃん冬シーズン",
+      "titleZhHans": "喵喵冬季赛季",
+      "titleZhHant": "喵喵冬季賽季",
+      "start": "2026-11-23 09:00",
+      "end": "2026-12-07 09:00",
+      "tasks": [
+        { "id": "t1", "stat": "plays",  "target": 30,   "reward": { "kind": "gold",     "n": 3000 } },
+        { "id": "t2", "stat": "wins",   "target": 20,   "reward": { "kind": "material", "n": 300 } },
+        { "id": "t3", "stat": "kills",  "target": 3000, "reward": { "kind": "piece",    "n": 300 } },
+        { "id": "t4", "stat": "cards",  "target": 300,  "reward": { "kind": "tuna",     "n": 50 } },
+        { "id": "t5", "stat": "bosses", "target": 20,   "reward": { "kind": "gem",      "n": 6 } },
+        { "id": "t6", "stat": "ads",    "target": 10,   "reward": { "kind": "gem",      "n": 3 } }
+      ],
+      "bonus": { "kind": "gem", "n": 10 }
+    }
+  ]
+}
